@@ -52,7 +52,7 @@ Modify the `index.html` file in your [Freeboard](https://github.com/Freeboard/fr
 - Create a thing
 - Copy IoT endpoint
 
-![AWS IoT Endpoint](https://github.com/iamfiscus/freeboard-aws-iot-ws-mqtt/raw/master/src/common/img/create-thing.png "AWS IoT Endpoint")
+![AWS IoT Endpoint](https://github.com/iamfiscus/freeboard-aws-iot-ws-mqtt/raw/master/img/create-thing.png "AWS IoT Endpoint")
 
 
 #### Datasource
@@ -61,27 +61,28 @@ Start [Freeboard](https://github.com/Freeboard/freeboard) project and add Dataso
 - Add AWS Region
 - Add AWS Access Key w/ IoT permissions
 - Add AWS Secret Key w/ IoT permissions
+- Add Topic(s) to subscribe to
 
-![Add Datasource](https://github.com/iamfiscus/freeboard-aws-iot-ws-mqtt/raw/master/src/common/img/add-datasource.png "Add Datasource")
+![Add Datasource](https://github.com/iamfiscus/freeboard-aws-iot-ws-mqtt/raw/master/img/add-datasource.png "Add Datasource")
 
 #### Panel
 Create a Text panel with 3 columns, and the datasource to `datasources["Read Me"].message`
 
-![Add Panel](https://github.com/iamfiscus/freeboard-aws-iot-ws-mqtt/raw/master/src/common/img/add-panel.png "Add Panel")
+![Add Panel](https://github.com/iamfiscus/freeboard-aws-iot-ws-mqtt/raw/master/img/add-panel.png "Add Panel")
 
 #### Test
 In the AWS IoT console go to the Test tab.
 
 Subscribe to a topic.
 
-![Subscribe to topic](https://github.com/iamfiscus/freeboard-aws-iot-ws-mqtt/raw/master/src/common/img/aws-subscribe.png "Subscribe to topic")
+![Subscribe to topic](https://github.com/iamfiscus/freeboard-aws-iot-ws-mqtt/raw/master/img/aws-subscribe.png "Subscribe to topic")
 
 Publish to the same topic.
 
-![Publish to topic](https://github.com/iamfiscus/freeboard-aws-iot-ws-mqtt/raw/master/src/common/img/aws-publish.png "Publish to topic")
+![Publish to topic](https://github.com/iamfiscus/freeboard-aws-iot-ws-mqtt/raw/master/img/aws-publish.png "Publish to topic")
 
 #### Result
 
-![AWS IoT Console](https://github.com/iamfiscus/freeboard-aws-iot-ws-mqtt/raw/master/src/common/img/aws-result.png "AWS IoT Console")
+![AWS IoT Console](https://github.com/iamfiscus/freeboard-aws-iot-ws-mqtt/raw/master/img/aws-result.png "AWS IoT Console")
 
-![Freeboard Panel](https://github.com/iamfiscus/freeboard-aws-iot-ws-mqtt/raw/master/src/common/img/panel-result.png "Freeboard Panel")
+![Freeboard Panel](https://github.com/iamfiscus/freeboard-aws-iot-ws-mqtt/raw/master/img/panel-result.png "Freeboard Panel")
