@@ -17,7 +17,7 @@ npm run create
 ```
 Define specific folder:
 ``` shell
-npm run create -d ${DIRECTORY}
+npm run create -- ${DIRECTORY}
 ```
 
 #### Manual
