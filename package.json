@@ -1,12 +1,14 @@
 {
   "name": "freeboard-aws-iot-ws-mqtt",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "description": "Freeboard plugin that allows you to create a datasource to AWS IoT topic by way of websockets and MQTT",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "npm run create",
-    "create": "sh ./bin/install.sh"
+    "create": "sh ./bin/install.sh",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "commit": "git-cz"
   },
   "keywords": [
     "freeboard",
@@ -17,5 +19,16 @@
     "datasource"
   ],
   "author": "Jd Fiscus <@iamfiscus>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamfiscus/freeboard-aws-iot-ws-mqtt.git"
+  },
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "semantic-release": "^6.3.2"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
+  }
 }

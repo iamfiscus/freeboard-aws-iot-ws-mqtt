@@ -1,5 +1,8 @@
+[![Travis](https://img.shields.io/travis/freeboard-aws-iot-ws-mqtt/rust.svg)]()
+[![GitHub release](https://img.shields.io/github/release/freeboard-aws-iot-ws-mqtt/rubidium.svg)]()
+[![MIT License](https://img.shields.io/badge/MIT-license-blue.svg?style=flat)]()
 # freeboard-aws-iot-ws-mqtt
-Freeboard plugin that allows you to create a datasource to AWS IoT topic by way of websockets and MQTT
+[Freeboard](https://github.com/Freeboard/freeboard) plugin that allows you to create a datasource to AWS IoT topic by way of websockets and MQTT
 
 ## Install
 ``` shell
