@@ -4,7 +4,7 @@
   "description": "Freeboard plugin that allows you to create a datasource to AWS IoT topic by way of websockets and MQTT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Warning: no test specified\" && exit",
     "postinstall": "npm run create",
     "create": "sh ./bin/install.sh",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
