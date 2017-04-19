@@ -205,11 +205,11 @@
             display_name: "AWS IoT over Websockets",
             description: "A real-time stream datasource using AWS IoT over websockets.",
             external_scripts: [
-                "/plugins/freeboard-aws-iot-ws-mqtt/core-min.js",
-                "/plugins/freeboard-aws-iot-ws-mqtt/hmac-min.js",
-                "/plugins/freeboard-aws-iot-ws-mqtt/moment.min.js",
-                "/plugins/freeboard-aws-iot-ws-mqtt/sha256-min.js",
-                "/plugins/thirdparty/mqttws31.js"
+              "/plugins/freeboard-aws-iot-ws-mqtt/core.js",
+              "/plugins/freeboard-aws-iot-ws-mqtt/hmac.js",
+              "/plugins/freeboard-aws-iot-ws-mqtt/moment.min.js",
+              "/plugins/freeboard-aws-iot-ws-mqtt/sha256.js",
+              "/plugins/freeboard-aws-iot-ws-mqtt/mqttws31-min.js"
             ],
             settings: [{
                     name: "endpoint",
