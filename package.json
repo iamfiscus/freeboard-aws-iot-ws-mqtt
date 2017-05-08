@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Warning: no test specified\" && exit",
     "postinstall": "npm run create",
-    "create": "sh ./bin/install.sh",
+    "create": "node ./bin/install.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "commit": "git-cz"
   },
@@ -27,7 +27,8 @@
   "devDependencies": {
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.0.0",
-    "semantic-release": "^6.3.2"
+    "semantic-release": "^6.3.2",
+    "shelljs": "^0.7.7"
   },
   "czConfig": {
     "path": "node_modules/cz-conventional-changelog"
